@@ -23,4 +23,16 @@ func main(){
 
 	fmt.Println("nilai phi adalah : ", pi)
 	fmt.Println("nama aplikasi adalah : ", appName)
+
+	// Boolean
+	var b1 bool = true
+	var b2 = true
+	var b3 bool
+	b4 := true
+
+
+	fmt.Println("boolean is : ", b1)
+	fmt.Println("boolean is : ", b2)
+	fmt.Println("boolean is : ", b3)
+	fmt.Println("boolean is : ", b4)
 }
