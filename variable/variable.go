@@ -35,4 +35,15 @@ func main(){
 	fmt.Println("boolean is : ", b2)
 	fmt.Println("boolean is : ", b3)
 	fmt.Println("boolean is : ", b4)
+	
+	fmt.Println("===== Float 32 =======")
+	var x float32 = 123.78
+	var y float32 = 3.4e+38
+	fmt.Printf("Type: %T, value: %v\n", x, x)
+	fmt.Printf("Type: %T, value: %v", y, y)
+
+	fmt.Println("===== Float 64 =======")
+	var x64 float64 = 1.7e+308
+  	fmt.Printf("Type: %T, value: %v", x64, x64)
+
 }
