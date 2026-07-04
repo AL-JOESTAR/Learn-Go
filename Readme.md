@@ -1,4 +1,4 @@
-## Beljar Go Dasar
+## Belajar Go Dasar
 
 * variable
 * integer
