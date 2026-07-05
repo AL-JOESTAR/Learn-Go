@@ -12,4 +12,8 @@ func main() {
 	if x < y {
 		fmt.Println("x lebih kecil dari y")
 	}
+
+	if y > x {
+		fmt.Println("y lebih besar daripada x")
+	}
 }
