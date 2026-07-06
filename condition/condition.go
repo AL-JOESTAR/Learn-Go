@@ -41,4 +41,17 @@ func main() {
 	} else {
 		fmt.Println("a dan b sama besarnya")
 	}
+
+	fmt.Println("=========== nested if ===========")
+
+	num := 20
+
+	if (num >= 10){
+		fmt.Println("num lebih dari 10")
+		if (num >= 15){
+			fmt.Println("num juga lebih dari 15")
+		}
+	} else {
+		fmt.Println("number kurang dari 10")
+	}
 }
