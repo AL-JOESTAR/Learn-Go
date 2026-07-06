@@ -4,3 +4,5 @@
 * integer
 * boolean
 * string
+* condition 
+* array
