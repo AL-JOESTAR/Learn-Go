@@ -16,4 +16,14 @@ func main() {
 	if y > x {
 		fmt.Println("y lebih besar daripada x")
 	}
+
+	fmt.Println("=========== if else ===========")
+
+	time := 20
+
+	if (time < 18) {
+		fmt.Println("selamat siang")
+	} else {
+		fmt.Println("selmat malam tuan")
+	}
 }
