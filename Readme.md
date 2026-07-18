@@ -7,3 +7,4 @@
 * condition 
 * array
 * Switch
+* loop
