@@ -28,6 +28,12 @@ func mytambah(x int, y int) (result int) {
 	return
 }
 
+// story return to variable
+func MyTambah(x int, y int) (result int){
+	result = x + y
+	return result
+}
+
 func main(){
 	myMessage()
 	myMessage()
@@ -41,4 +47,6 @@ func main(){
 
 	fmt.Println(tambah(1,2))
 	fmt.Println(mytambah(1,2))
+	total := MyTambah(1,2)
+	fmt.Println(total)
 }
