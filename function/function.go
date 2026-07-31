@@ -21,6 +21,12 @@ func tambah(x int, y int) int {
 	return x + y
 }
 
+// named return values
+
+func mytambah(x int, y int) (result int) {
+	result = x + y
+	return
+}
 
 func main(){
 	myMessage()
@@ -34,4 +40,5 @@ func main(){
 	nameAge("john", 20)
 
 	fmt.Println(tambah(1,2))
+	fmt.Println(mytambah(1,2))
 }
