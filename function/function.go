@@ -34,6 +34,13 @@ func MyTambah(x int, y int) (result int){
 	return result
 }
 
+//
+func UmurNama(x int, y string) (result int, txt string){
+	result = x + x
+	txt = y + "lebih"
+	return
+}
+
 func main(){
 	myMessage()
 	myMessage()
@@ -49,4 +56,6 @@ func main(){
 	fmt.Println(mytambah(1,2))
 	total := MyTambah(1,2)
 	fmt.Println(total)
+
+	fmt.Println(UmurNama(5,"tahun "))
 }
