@@ -41,6 +41,16 @@ func UmurNama(x int, y string) (result int, txt string){
 	return
 }
 
+//recursion
+func testcount(x int) int {
+	if x == 11 {
+		return 0
+	}
+
+	fmt.Println(x)
+	return testcount(x+1)
+}
+
 func main(){
 	myMessage()
 	myMessage()
@@ -58,4 +68,5 @@ func main(){
 	fmt.Println(total)
 
 	fmt.Println(UmurNama(5,"tahun "))
+	testcount(1)
 }
