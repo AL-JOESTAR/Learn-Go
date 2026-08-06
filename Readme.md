@@ -10,3 +10,4 @@
 * loop
 * struct
 * function
+* private, public
