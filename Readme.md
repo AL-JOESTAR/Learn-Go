@@ -8,3 +8,5 @@
 * array
 * Switch
 * loop
+* struct
+* function
